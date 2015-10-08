@@ -1,0 +1,23 @@
+{
+  "name": "formula-cellindex",
+  "version": "1.0.0",
+  "description": "CELLINDEX function",
+  "main": "CELLINDEX.js",
+  "scripts": {
+    "test": "mocha test",
+    "build": "babel CELLINDEX.es6 -m umd --out-file CELLINDEX.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/cellindex.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/cellindex/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/cellindex#readme",
+  "dependencies": {
+    "formula-constants": "^1.0.3"
+  }
+}
